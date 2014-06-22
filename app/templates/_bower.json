@@ -1,11 +1,11 @@
 {
-  "version": "0.1.4",
   "name": "<%= _.slugify(projectName) %>",
   "description": "<%= projectName %>",
+  "version": "0.0.0",
   "authors": [
-    "Dane Petersen"
+    ""
   ],
-  "license": "MIT",
+  "license": "",
   "ignore": [
     "**/.*",
     "node_modules",

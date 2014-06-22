@@ -1,20 +1,17 @@
 {
-  "version": "0.1.4",
-  "author": "Dane Petersen",
   "name": "<%= _.slugify(projectName) %>",
   "description": "<%= projectName %>",
+  "version": "0.0.0",
+  "author": "",
   "licenses": [
     {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
+      "type": "",
+      "url": ""
     }
   ],
   "repository": {
-    "type": "git",
-    "url": "https://github.com/thegreatsunra/jetfire.git"
-  },
-  "bugs": {
-    "url": "https://github.com/thegreatsunra/jetfire/issues"
+    "type": "",
+    "url": ""
   },
   "devDependencies": {
     "grunt": "~0.4.1",
