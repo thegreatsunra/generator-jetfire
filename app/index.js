@@ -24,14 +24,14 @@ var JetfireGenerator = yeoman.generators.Base.extend({
     this.log(yosay('Welcome to the marvelous Jetfire generator!'));
 
     var prompts = [{
-      type: 'confirm',
-      name: 'someOption',
-      message: 'Would you like to enable this option?',
-      default: true
+      type: 'input',
+      name: 'projectName',
+      message: 'Your project name',
+      default: this.appname
     }];
 
     this.prompt(prompts, function (props) {
-      this.someOption = props.someOption;
+      this.projectName = props.projectName;
 
       done();
     }.bind(this));

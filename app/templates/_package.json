@@ -1,8 +1,8 @@
 {
-  "name": "jetfire",
-  "description": "Extremely lightweight web prototyping environment",
   "version": "0.1.4",
   "author": "Dane Petersen",
+  "name": "<%= _.slugify(projectName) %>",
+  "description": "<%= projectName %>",
   "licenses": [
     {
       "type": "MIT",
