@@ -38,15 +38,21 @@ var JetfireGenerator = yeoman.generators.Base.extend({
   },
 
   app: function () {
-    this.mkdir('app');
-    this.mkdir('app/templates');
+    this.directory('app');
 
-    this.copy('_package.json', 'package.json');
     this.copy('_bower.json', 'bower.json');
+    this.copy('_Gruntfile.js', 'Gruntfile.js');
+    this.copy('_gulpfile.js', 'gulpfile.js');
+    this.copy('_LICENSE', 'LICENSE');
+    this.copy('_package.json', 'package.json');
+    this.copy('_README.md', 'README.md');
   },
 
   projectfiles: function () {
+    this.copy('bowerrc', '.bowerrc');
     this.copy('editorconfig', '.editorconfig');
+    this.copy('gitattributes', '.gitattributes');
+    this.copy('gitignore', '.gitignore');
     this.copy('jshintrc', '.jshintrc');
   }
 });
