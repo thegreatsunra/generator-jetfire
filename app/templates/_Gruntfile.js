@@ -1,5 +1,8 @@
-// Generated on 2014-06-20 using generator-webapp 0.4.9
-'use strict';
+/* ====================================
+ *  gruntfile.js
+ * ===================================== */
+
+ 'use strict';
 
 // # Globbing
 // for performance reasons we're only matching one level down:
