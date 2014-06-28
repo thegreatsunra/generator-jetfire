@@ -1,4 +1,4 @@
-# generator-jetfire 0.1.5 [![Build Status](https://secure.travis-ci.org/thegreatsunra/generator-jetfire.png?branch=master)](https://travis-ci.org/thegreatsunra/generator-jetfire)
+# generator-jetfire 0.1.6 [![Build Status](https://secure.travis-ci.org/thegreatsunra/generator-jetfire.png?branch=master)](https://travis-ci.org/thegreatsunra/generator-jetfire)
 
 > [Yeoman](http://yeoman.io) generator
 
